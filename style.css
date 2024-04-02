@@ -1,61 +1,59 @@
-*{
+* {
     box-sizing: border-box;
 }
 
 
-body{
+body {
     margin: 0;
     padding: 0;
-    height: 3000px;
+    height: 5000px;
 }
 
 
-.logo{
+.logo {
     display: flex;
     padding: 31px 32px;
 }
 
 
-ul li{
+ul li {
     list-style: none;
 }
 
-ul li a{
+ul li a {
     text-decoration: none;
     color: black;
     font-weight: 500;
 }
 
 
-#slider{
-    
-}
+#slider {}
 
 
-#slider .slider{
+#slider .slider {
     display: flex;
 }
 
 
-.slider .left{
+.slider .left {
     padding: 150px 31px;
 }
 
 
-.slider .left h1{
+.slider .left h1 {
     font-size: 70px;
     font-weight: 700
 }
 
 
-.slider .left p{
+.slider .left p {
     font-size: 24px;
     font-weight: 400;
     font-family: open-sans;
 }
 
 
-.slider .left button{
+.slider .left button {
     background-color: #71A894;
     width: 220px;
     height: 64px;
@@ -65,28 +63,26 @@ ul li a{
 }
 
 
-#slider .slider .right{
-
-}
+#slider .slider .right {}
 
 
-#slider .slider .right img{
-    width:733px ;
+#slider .slider .right img {
+    width: 733px;
     height: 570px;
 }
 
 
-#banner{
+#banner {
     margin-top: 100px;
 }
 
 
-#banner .banner-header{
+#banner .banner-header {
     margin: 0 auto;
 }
 
 
-.banner-header h1{
+.banner-header h1 {
     display: flex;
     justify-content: center;
     font-weight: 800;
@@ -94,7 +90,7 @@ ul li a{
 }
 
 
-.banner-header p{
+.banner-header p {
     width: 881px;
     margin: 0 auto;
     text-align: center;
@@ -102,7 +98,7 @@ ul li a{
 }
 
 
-.banners{
+.banners {
     margin-top: 50px;
     display: flex;
     gap: 23px;
@@ -110,14 +106,14 @@ ul li a{
 }
 
 
-.banners .banner{
-    width:427px ;
+.banners .banner {
+    width: 427px;
     height: 340px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 
-.banners .banner svg{
+.banners .banner svg {
     width: 104px;
     height: 88px;
     margin-top: 64px;
@@ -125,7 +121,7 @@ ul li a{
 }
 
 
-.banners .banner h5{
+.banners .banner h5 {
     font-weight: 700px;
     font-size: 24px;
     display: flex;
@@ -134,7 +130,7 @@ ul li a{
 }
 
 
-.banners .banner p{
+.banners .banner p {
     width: 365px;
     text-align: center;
     margin: 0 auto;
@@ -142,61 +138,309 @@ ul li a{
 }
 
 
-#members{
+#members {
     margin-top: 150px;
 }
 
 
-.kickstart{
+.kickstart {
     display: flex;
     justify-content: center;
 }
 
 
-.kickstart .founder{
+.kickstart .founder {
     width: 644px;
     height: 334px;
 }
 
 
-.kickstart .founder svg{
+.kickstart .founder svg {
     width: 48px;
     height: 48px;
 }
 
 
-.kickstart .founder h1{
+.kickstart .founder h1 {
     font-weight: 800;
     font-size: 48px;
     margin-top: 24px;
 }
 
 
-.kickstart .founder p{
+.kickstart .founder p {
     font-weight: 400px;
     font-size: 18px;
     margin-top: 24px;
 }
 
 
-.kickstart .memberr{
+.kickstart .memberr {
     width: 484px;
     height: 400px;
     border: 4px solid black;
     border-radius: 16px;
 }
 
-.user{
+.user {
     display: flex;
 }
 
 
-.user-image{
+.user-image {
     margin-left: 40px;
     margin-top: 24px;
 }
 
-.user-name{
+.user-name {
     margin-left: 16px;
     margin-top: 24px;
+}
+
+
+#commit {
+    margin-top: 150px;
+}
+
+
+#commit .commit-users {
+    display: flex;
+    justify-content: center;
+}
+
+
+#commit .commit-users .commits {
+    width: 484px;
+    height: 400px;
+    border: 4px solid black;
+    border-radius: 16px;
+}
+
+
+#commit .commit-users .commits .image-name {
+    display: flex;
+    margin-left: 40px;
+    margin-top: 32px;
+}
+
+
+#commit .commit-users .commits .image-name .jassir-image img {
+    width: 117px;
+    height: 236px;
+}
+
+
+.commit-shares {
+    display: flex;
+    margin-left: 40px;
+    margin-top: 32px;
+}
+
+.commits button {
+    width: 404px;
+    height: 56px;
+    background-color: #303031;
+    color: white;
+    border: none;
+    border-radius: 16px;
+    font-weight: 500;
+    margin-left: 40px;
+    margin-top: 32px;
+}
+
+.commits p {
+    font-weight: bold;
+    font-size: 16px;
+    width: 394px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+
+.commit-shares .sha {
+    margin-left: 100px;
+}
+
+.commit-users .users {
+    width: 644px;
+    height: 334px;
+    margin-left: 100px;
+}
+
+
+.commit-users .users svg{
+    width: 48px;
+    height: 48px;
+}
+
+
+.commit-users .users h1{
+    font-weight: 800;
+    font-size: 48px;
+    margin-top: 24px;
+}
+
+
+
+.commit-users .users p{
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 24px;
+}
+
+
+#highly{
+    margin-top: 150px;
+}
+
+
+.engage-profile{
+    display: flex;
+    justify-content: center;
+}
+
+
+.engage{
+    width: 644px;
+    height: 334px;
+}
+
+
+.engage svg{
+    width: 48px;
+    height: 48px;
+}
+
+
+.engage h1{
+    font-weight: 800;
+    font-size: 48px;
+    margin-top: 24px;
+}
+
+
+.engage p{
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 24px;
+    width: 667px;
+}
+
+
+.profie{
+    margin-left: 50px;
+}
+
+
+.enterprise{
+    width: 631px;
+    height: 164px;
+    border: 4px solid black;
+    border-radius: 16px;
+    padding: 24px 82px;
+}
+
+
+.enterprise h5{
+    font-weight: 700;
+    font-size: 18px;
+}
+
+
+.enterprise p{
+    font-weight: 500;
+    font-size: 16px;
+    width: 438px;
+    margin-top: 16px;
+}
+
+
+.applicant-writer{
+    margin-top: 13px;
+    display: flex;
+}
+
+
+.applicant-writer .applicant{
+    width: 381px;
+    height: 288px;
+    border: 4px solid black;
+    border-radius: 16px;
+    background-color: #F3F0EA;
+}
+
+
+.user-and-photo{
+    display: flex;
+    margin-left: 40px;
+}
+
+
+.user-names{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+
+.user-names p{
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+
+.applicant-writer .writer{
+    margin-left: 12px;
+    width: 240px;
+    height: 288px;
+    border: 4px solid #71A894;
+    border-radius: 16px;
+}
+
+
+.writer svg{
+    display: flex;
+    margin: 0 auto;
+    margin-top: 24px;
+}
+
+
+.writer h5{
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+    font-weight: 700;
+}
+
+
+.writer p{
+    display: flex;
+    justify-content: center;
+    margin-top: 4px;
+    color: #66645E;
+    font-weight: 500;
+}
+
+
+.writer h6{
+    margin-left: 24px;
+    font-weight: 400;
+}
+
+
+.writer button{
+    width: 192px;
+    height: 44px;
+    border: none;
+    border-radius: 16px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #303031;
+    color: white;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 16px;
 }
