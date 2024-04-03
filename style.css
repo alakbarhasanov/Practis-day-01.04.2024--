@@ -6,13 +6,23 @@
 body {
     margin: 0;
     padding: 0;
-    height: 5000px;
+    height: 4500px;
 }
 
 
 .logo {
     display: flex;
     padding: 31px 32px;
+}
+
+
+.logo svg{
+    cursor: pointer;
+}
+
+
+.logo h1{
+    cursor: pointer;
 }
 
 
@@ -225,8 +235,7 @@ ul li a {
 
 
 #commit .commit-users .commits .image-name .jassir-image img {
-    width: 117px;
-    height: 236px;
+    width: 72px;
 }
 
 
@@ -443,4 +452,235 @@ ul li a {
     text-align: center;
     align-items: center;
     margin-top: 16px;
+}
+
+
+
+#help{
+    margin-top: 150px;
+}
+
+
+.help-header{
+
+}
+
+
+.help-header h1{
+    font-weight: 800;
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.help-header p{
+    font-weight: 400;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 939px;
+    margin: 0 auto;
+    margin-top: 24px;
+}
+
+
+.updates{
+    display: flex;
+    justify-content: center;
+    margin-top: 48px;
+}
+
+
+.update{
+    width: 427px;
+    height: 216px;
+    border-radius: 16px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+
+.update h6{
+    font-weight: 700;
+    font-size: 18px;
+    padding-top: 24px;
+    margin-left: 24px;
+}
+
+
+.update p{
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 16px;
+    margin-left: 24px;
+}
+
+
+.aut-by{
+    display: flex;
+    margin-top: 24px;
+    margin-left: 24px;
+    align-items: center;
+}
+
+
+.aut{
+    width: 68px;
+    height: 32px;
+    background-color: #71A894;
+    border-radius: 40px;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+
+.aut span{
+    justify-content: center;
+    display: flex;
+    padding-top: 3px;
+}
+
+
+.by{
+    margin-left: 190px
+}
+
+
+.by h5{
+    font-weight: 100;
+    font-style: italic;
+    font-size: 16px;
+}
+
+
+#start{
+    margin-top: 59px;
+}
+
+
+.start-enterprises{
+    display: flex;
+    justify-content: center;
+}
+
+
+.starter{
+    width: 644px;
+    height: 244px;
+}
+
+
+.starter h1{
+    font-weight: 800;
+    font-size: 48px;
+}
+
+
+.starter p{
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 24px;
+}
+
+
+.starter button{
+    width: 220px;
+    height: 64px;
+    border: none;
+    border-radius: 8px;
+    background-color: #71A894;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 40px;
+}
+
+
+footer{
+    margin-top:120px ;
+}
+
+
+.openent-social{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 110px;
+}
+
+
+.openent h3{
+    font-weight: 700;
+    font-size: 24px;
+}
+
+
+.social ul li {
+    font-weight: 500;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+@media (max-width: 320px){
+    .logo h1{
+        display: none;
+    }
+
+    nav{
+        display: none;
+    }
+
+    .border{
+        display: none;
+    }
+    
+    .hamburger-menu{
+        display: block; 
+        font-size: 40px;
+    }
+
+    .slider .left{
+       
+    }
+
+    .slider .right img{
+        
+    }
+
+
+    .dots{
+        display: none;
+    }
+
+
+    #members{
+        display: none;
+    }
+
+
+    #commit{
+        display: none;
+    }
+
+
+    #highly{
+        display: none;
+    }
+
+
+    #help{
+        display: none;
+    }
+
+
+    #start{
+        display: none;
+    }
+
+
+    footer{
+        display: none;
+    }
 }
