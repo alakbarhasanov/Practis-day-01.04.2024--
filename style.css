@@ -623,6 +623,9 @@ footer{
 }
 
 
+
+
+/* Responsive */
 @media (max-width: 320px){
     .logo h1{
         display: none;
@@ -641,14 +644,59 @@ footer{
         font-size: 40px;
     }
 
-    .slider .left{
-       
+
+    .slider{
+        flex-direction: column-reverse;
     }
+
+    .slider .left h1{
+       width: 624px;
+       margin-left: 90px;
+       text-align: center;
+    }
+
+
+    .slider .left p{
+        width: 467px;
+        text-align: center;
+        margin-left: 170px;
+        font-size: 37px;
+        margin-top: 24px;
+    }
+
+
+    .slider .left button{
+        margin-left: 287px;
+        margin-top: 47px;
+    }
+
+
+    .slider .right{
+        margin-left: 70px;
+    }
+
 
     .slider .right img{
         
     }
 
+
+    .banner-header h1{
+        width: 429px;
+        margin-left: 250px;
+        text-align: center;
+    }
+
+
+    .banner-header p{
+        width: 300px;
+        margin-left: 300px;
+    }
+
+    .banners{
+        flex-direction: column-reverse;
+        margin-left: 230px;
+    }
 
     .dots{
         display: none;
